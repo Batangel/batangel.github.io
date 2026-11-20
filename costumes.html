@@ -25,6 +25,9 @@ overflow-y: auto;
             
 
 }
+p{
+    background-color: rgb(239, 166, 10);
+}
 footer {
         text-align: center;
         padding: 1rem;
@@ -32,7 +35,7 @@ footer {
         font-size: 0.9rem;
         width: 98.5%;
         position: absolute;
-        bottom: 100%;
+        bottom: -20%;
         }
 #pierrot{
     background-image:url(https://th.bing.com/th/id/OIP.mlAcTQGGJEqe9gMQl1r4awHaLH?w=202&h=303&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
@@ -42,6 +45,11 @@ footer {
     color: white;
     top: 20% ;
     position: absolute;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+
+}
+#pierrot:hover{
+    background-color: white;
 }
 #auguste{
     background-image: url(https://th.bing.com/th/id/OIP.3SFAfahtYgD3BqwQRpw6VQAAAA?w=198&h=220&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
