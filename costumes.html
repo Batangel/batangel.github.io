@@ -45,11 +45,12 @@ footer {
     color: white;
     top: 20% ;
     position: absolute;
-      transition: background-color 0.3s ease, transform 0.2s ease;
+     transition: transform 0.3s ease;
+
 
 }
 #pierrot:hover{
-    background-color: white;
+    transform:scale(1.05) ;
 }
 #auguste{
     background-image: url(https://th.bing.com/th/id/OIP.3SFAfahtYgD3BqwQRpw6VQAAAA?w=198&h=220&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
@@ -59,6 +60,10 @@ footer {
     position: absolute;
     left: 65%;
     top: 45%;
+    transition: transform 0.3s ease;
+}
+#auguste:hover{
+    transform: scale(1.05) ;
 
 }
 #harlequin{
@@ -68,15 +73,19 @@ footer {
     position: absolute;
     left: 40%;
     top: 45%;
-
+    transition: transform 0.3s ease;
 }
- 
+ #harlequin:hover{
+    transform: scale(1.05);
+
+ }
 
     </style>
 </head>
 <body>
     <div class="header">
     <h1>become part of the circus!</h1>
+    <p>buy your costume here</p>
     </div>
     <div id="pierrot">PIERROT?</div>
     <div id="harlequin">HARLEQUIN?</div>
